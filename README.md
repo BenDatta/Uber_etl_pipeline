@@ -5,16 +5,16 @@ This project demonstrates an **end-to-end ETL pipeline** for Uber ride data usin
 The pipeline:  
 - 📥 Extracts raw CSV data  
 - 🧹 Transforms it into a clean format  
-- ☁️ Loads it into **Google Cloud Storage (GCS)** for further analytics & visualization  
+- ☁️ Loads it into **Google Cloud Storage (GCS)** for further analytics & visualization
+
+![Workflow](https://raw.githubusercontent.com/BenDatta/Uber_etl_pipeline/main/Workflow.png)  
+
 
 This project highlights my **Data Engineering skills** in:  
 ✔️ Pipeline automation  
 ✔️ Data cleaning  
 ✔️ Cloud integration  
 ✔️ Data Analysis and Visualization
-
-*(Click image to view interactive dashboard)* 
-[![Uber ETL Dashboard](https://raw.githubusercontent.com/BenDatta/Uber_etl_pipeline/main/dashboard.png)](https://lookerstudio.google.com/s/k9dSeSe-nJk)
 
 ---
 
@@ -54,6 +54,9 @@ With the cleaned dataset stored in GCS, you can build:
 💵 Revenue Reports → Average booking value & total revenue  
 🌍 Geospatial Analysis → Pick-up and drop-off heatmaps  
 ⭐ Driver Performance → Ratings, cancellations, and service quality  
+
+*(Click image to view interactive dashboard)* 
+[![Uber ETL Dashboard](https://raw.githubusercontent.com/BenDatta/Uber_etl_pipeline/main/dashboard.png)](https://lookerstudio.google.com/s/k9dSeSe-nJk)
 
 ---
 
